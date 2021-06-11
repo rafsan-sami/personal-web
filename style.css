@@ -1,0 +1,29 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.name-highlight{
+    color: #EC4D7B;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, #EC5197, #EC4C7A);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
