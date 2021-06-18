@@ -1,4 +1,5 @@
-*{
+body{
+    margin: 0%;
     font-family: 'Ubuntu', sans-serif;
 }
 .name-highlight{
@@ -10,14 +11,18 @@ h1{
 h2{
     font-size: 50px;
 }
+h3{
+    font-size: 40px;
+}
 .half-width{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
     float: left;
+    padding-top: 190px;
 }
 .half-width img{
-    width: 100%;
+    width: 100%;   
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +31,91 @@ h2{
     border-radius: 4px;
     color: white;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    height: 1073px;
+}
+.dream-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 875px;
+    padding-bottom: 100px;
+    background-position: center;
+}
+.work-area h4{
+    font-size: 30px;
+    text-align: center;
+}
+.first-img img{
+    height: 250px;
+    float: left;
+    padding-left: 85px;
+    padding-top: 150px;
+}
+.secend-img img{
+    height: 250px;
+    float: left;
+    padding-left: 85px;
+    padding-top: 150px;
+}
+.third-img img{
+    height: 250px;
+    padding-left: 85px;
+    float: left;
+    padding-top: 150px;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-position: center;
+}
+.work-area{
+    height: 500px;
+}
+.last-area{
+    background-image: url(images/footer-bg.png);
+    background-position: center;
+}
+.last-area h4{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.last-area h5{
+    font-size: 20px;
+    text-align: center;
+}
+.last-area h6{
+    font-size: 15px;
+    text-align: center;
+}
+.last-area p{
+    width: 350px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+.box{
+    width: 500px;
+    height: 150px;
+    background-color: #EC4D85;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.box p{
+    font-size: 30px;
+}
+footer p{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 100px;
 }
